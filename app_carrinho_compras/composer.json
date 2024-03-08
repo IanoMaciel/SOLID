@@ -1,0 +1,16 @@
+{
+    "name": "iano/app_carrinho_compras",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Iano\\AppCarrinhoCompras\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Iano Maciel",
+            "email": "ianomaciel6385@gmail.com"
+        }
+    ],
+    "require": {}
+}
