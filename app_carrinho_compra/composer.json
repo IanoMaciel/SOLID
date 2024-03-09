@@ -1,9 +1,9 @@
 {
-    "name": "iano/app_carrinho_compras",
+    "name": "iano/app_carrinho_compra",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Iano\\AppCarrinhoCompras\\": "src/"
+            "Iano\\AppCarrinhoCompra\\": "src/"
         }
     },
     "authors": [

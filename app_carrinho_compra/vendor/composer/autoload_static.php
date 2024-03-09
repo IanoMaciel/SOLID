@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7dce6c57620bfd1c27947864901021dd
+class ComposerStaticInite81a91ecd40ee835224d51e3b60101c9
 {
     public static $prefixLengthsPsr4 = array (
         'I' => 
         array (
-            'Iano\\AppCarrinhoCompras\\' => 24,
+            'Iano\\AppCarrinhoCompra\\' => 23,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Iano\\AppCarrinhoCompras\\' => 
+        'Iano\\AppCarrinhoCompra\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -22,14 +22,15 @@ class ComposerStaticInit7dce6c57620bfd1c27947864901021dd
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Iano\\AppCarrinhoCompra\\CarrinhoCompra' => __DIR__ . '/../..' . '/src/CarrinhoCompra.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit7dce6c57620bfd1c27947864901021dd::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit7dce6c57620bfd1c27947864901021dd::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit7dce6c57620bfd1c27947864901021dd::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite81a91ecd40ee835224d51e3b60101c9::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite81a91ecd40ee835224d51e3b60101c9::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInite81a91ecd40ee835224d51e3b60101c9::$classMap;
 
         }, null, ClassLoader::class);
     }
